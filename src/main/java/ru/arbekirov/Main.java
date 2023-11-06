@@ -27,6 +27,16 @@ public class Main {
         System.out.println("!(x && y) = " + !(x && y));
     }
 }
+public class OverflowExample {
+    public static void main(String[] args) {
+        int maxIntValue = Integer.MAX_VALUE; // Максимальное значение int
+        System.out.println("Максимальное значение int: " + maxIntValue);
+        
+        int result = maxIntValue + 1; // Попытка увеличить на 1 и вызвать переполнение
+        System.out.println("Результат переполнения: " + result);
+    }
+}
+
 
 
 
