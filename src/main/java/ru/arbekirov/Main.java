@@ -22,17 +22,11 @@ public class Main {
         boolean x = true;
         boolean y = false;
 
-        boolean andResult = x && y; // Логическое И (AND)
-        boolean orResult = x || y;  // Логическое ИЛИ (OR)
-        boolean notResultX = !x;    // Логическое НЕ (NOT)
-        boolean notResultY = !y;    // Логическое НЕ (NOT)
-
-        System.out.println("Логическое И (AND): " + andResult);
-        System.out.println("Логическое ИЛИ (OR): " + orResult);
-        System.out.println("Логическое НЕ (NOT) для x: " + notResultX);
-        System.out.println("Логическое НЕ (NOT) для y: " + notResultY);
+        System.out.println("x && y = " + (x&&y));
+        System.out.println("x || y = " + (x||y) );
+        System.out.println("!(x && y) = " + !(x && y));
     }
 }
 
-    }
-}
+
+
