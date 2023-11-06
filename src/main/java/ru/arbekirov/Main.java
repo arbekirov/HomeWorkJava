@@ -32,6 +32,19 @@ public class Main {
         
         int result = maxIntValue + 1; // Попытка увеличить на 1 и вызвать переполнение
         System.out.println("Результат переполнения: " + result);
+
+        // Выполнение операций между int и double
+        int intValue = 5;
+        double doubleValue = 3.14;
+        
+        double result1 = intValue + doubleValue; // Сложение
+        double result2 = intValue * doubleValue; // Умножение
+        double result3 = intValue / doubleValue; // Деление
+
+        System.out.println("Результат сложения: " + result1);
+        System.out.println("Результат умножения: " + result2);
+        System.out.println("Результат деления: " + result3);
+        
     }
 }
 
