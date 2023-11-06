@@ -25,10 +25,8 @@ public class Main {
         System.out.println("x && y = " + (x&&y));
         System.out.println("x || y = " + (x||y) );
         System.out.println("!(x && y) = " + !(x && y));
-    }
-}
-public class OverflowExample {
-    public static void main(String[] args) {
+
+        //Переполнение
         int maxIntValue = Integer.MAX_VALUE; // Максимальное значение int
         System.out.println("Максимальное значение int: " + maxIntValue);
         
